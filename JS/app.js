@@ -1,8 +1,7 @@
 var app = angular.module("myApp", [
   "ngRoute",
-  "ngSanitize",
-  "dndLists",
-  "ngMessages",
+  "ngSanitize"
+  
 ]);
 app.config([
   "$routeProvider",
